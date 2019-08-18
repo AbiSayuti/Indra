@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/menu_home"/>
+        <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_local_library_black_24dp"
+                android:title="@string/profile"/>
+        <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="Web Wisata"/>
+        <item
+                android:id="@+id/nav_lokasi"
+                android:icon="@drawable/ic_location_on_black_24dp"
+                android:title="@string/lokasi_wisata"/>
+        <item
+                android:id="@+id/nav_video"
+                android:icon="@drawable/ic_videocam_black_24dp"
+                android:title="@string/video_wisata"/>
+        <item
+            android:id="@+id/nav_galeri"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/galeri_wisata"/>
+    </group>
+
+    <item android:title="@string/lain_lain">
+        <menu>
+            <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_info_outline_black_24dp"
+                    android:title="Tentang Developer"/>
+            <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/ic_highlight_off_black_24dp"
+                    android:title="@string/keluar"/>
+        </menu>
+    </item>
+
+</menu>
